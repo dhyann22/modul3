@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btn_Plus_Satu_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satu Point"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_Plus_Dua_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dua Point"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="DuplicateIds" />
+
+    <Button
+        android:id="@+id/btn_Plus_Tiga_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiga Poin"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TextView
+        android:id="@+id/tv_Tim_A"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Point Tim A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.136">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_A"
+        android:layout_width="90dp"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.224">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnreset1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Reset Perhitungan"
+        android:onClick="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.385">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btnreset2"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:hint="Reset Perhitungan"
+        android:onClick="reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573">
+
+    </Button>
+
+
+    <TextView
+        android:id="@+id/tv_Tim_B"
+        android:layout_width="143dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Point Tim B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_Skor_Tim_B"
+        android:layout_width="90dp"
+        android:layout_height="81dp"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="60dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.87">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btn_Plus_Satu_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Satu Point"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <Button
+        android:id="@+id/btn_Plus_Dua_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dua Point"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <Button
+        android:id="@+id/btn_Plus_Tiga_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tiga Point"
+        android:onClick="Tambah"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+</androidx.constraintlayout.widget.ConstraintLayout>

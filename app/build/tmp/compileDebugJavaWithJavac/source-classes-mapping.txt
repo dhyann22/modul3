@@ -1,0 +1,6 @@
+com/example/tugas1/MainActivity2.java
+ com.example.tugas1.MainActivity2
+com/example/tugas1/MainActivity.java
+ com.example.tugas1.MainActivity
+com/example/tugas1/BuildConfig.java
+ com.example.tugas1.BuildConfig
